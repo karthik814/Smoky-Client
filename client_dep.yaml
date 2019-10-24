@@ -15,7 +15,7 @@ spec:
         run: smokey-client
     spec:
       containers:
-      - image: gcr.io/algebraic-inn-256717/client
+      - image: gcr.io/mythic-maxim-255321/smokey-client:BUILD
         name: smokey-client
         env:
         - name: SERVER
